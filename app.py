@@ -21,8 +21,8 @@ if st.button("Analyze"):
                         with tempfile.NamedTemporaryFile(delete=False, suffix=".wav") as temp_audio:
                             temp_audio.write(audio_path.read())
                             temp_audio_path = temp_audio.name
-        transcription = transcribe_audio.transcribe_audio(temp_audio_path)
-        scores = analyse_audio.analyse_audio(transcription, topic)
+        transcription = transcribe_audio.transcribe(temp_audio_path)
+        scores = analyse_audio.analyse(transcription, topic)
         st.success("Analysis Complete!")
         st.json(scores)
     else:

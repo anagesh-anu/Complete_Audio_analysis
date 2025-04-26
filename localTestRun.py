@@ -11,7 +11,7 @@ topic = "The importance of renewable energy"
 # Example usage
 if __name__ == "__main__":
     topic = "The importance of renewable energy"
-    transcription = transcribe_audio.transcribe_audio(audio_path)
-    scores = analyse_audio.analyse_audio(transcription, topic)
+    transcription = transcribe_audio.transcribe(audio_path)
+    scores = analyse_audio.analyse(transcription, topic)
     print("\nAnalysis Result:")
     print(scores)
