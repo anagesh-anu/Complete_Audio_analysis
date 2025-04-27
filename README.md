@@ -1,4 +1,4 @@
-# 🎙️ AI Speech Quality Evaluator
+# Complete Audio Analysis
 
 This project is a local, open-source solution that evaluates spoken English quality from an audio file based on four parameters:
 
@@ -9,16 +9,16 @@ This project is a local, open-source solution that evaluates spoken English qual
 
 ---
 
-## 🚀 Features
+## Features
 
-✅ Transcribes audio using **OpenAI Whisper (local)**  
-✅ Computes fluency, grammar, vocabulary richness, and topic relevance  
-✅ Returns structured **JSON scores** for easy integration  
-✅ 100% local execution – no API keys required!
+Transcribes audio using **OpenAI Whisper (local)**  
+Computes fluency, grammar, vocabulary richness, and topic relevance  
+Returns structured **JSON scores** for easy integration  
+100% local execution – no API keys required!
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Install all required dependencies:
 
